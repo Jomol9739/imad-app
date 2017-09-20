@@ -16,6 +16,12 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/Rose Flowers',function (req,res) {
     res.send('Hi,Iam the most beautiful Rose flower of lovers ');
 });
+app.get('/Jasmine Flowers',function (req,res) {
+    res.send('Hi,Iam the most beautiful favourite flower of malayalee girls ');
+});
+app.get('/lilly Flowers',function (req,res) {
+    res.send('Hi,Iam the most beautiful  flower in the water body ');
+});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
