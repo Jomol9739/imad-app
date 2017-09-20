@@ -14,7 +14,8 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/Rose-Flower',function (req,res) {
-    res.send('Hi,Iam the most beautiful Rose flower of lovers ');
+    res.sendFile(path.join(__dirname, 'ui', 'Rose-Flower.html'));
+   
 });
 app.get('/Jasmine-Flowers',function (req,res) {
     res.send('Hi,Iam the most beautiful favourite flower of malayalee girls ');
