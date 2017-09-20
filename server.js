@@ -21,7 +21,7 @@ app.get('/Jasmine-Flowers',function (req,res) {
     res.send('Hi,Iam the most beautiful favourite flower of malayalee girls ');
 });
 app.get('/lilly-Flowers',function (req,res) {
-    res.sendFile(path.join(__dirname, 'ui', 'lilly flower.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'liily flower.html'));
    
     
 });
